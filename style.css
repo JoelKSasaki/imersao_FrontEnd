@@ -15,20 +15,20 @@ h1{
     width: 300px;
 }
 
-.sidebar-navigation{
+.sidebar__navigation{
     background-color: #121212;
     border-radius: 10px;
     padding: 16px 0px 0px 16px;
 }
 
-.sidebar-navigation .logo{
+.sidebar__navigation .logo{
     background-color: #121212;
     display: flex;
     border-radius: 10px;
     padding: 16px 0px 0px 16px;
 }
 
-.sidebar-navigation .logo img{
+.sidebar__navigation .logo img{
     width: 80px;
 }
 
@@ -47,4 +47,125 @@ h1{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.library .library-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.library .library-button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library-button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library-content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 20px;
+}
+
+.section-playlist .section-playlist-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist-content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist-content .title{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.section-playlist-content .subtitle{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist-content .section-playlist-button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.languages .languages-button{
+    border: 1px solid #878787;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
 }
