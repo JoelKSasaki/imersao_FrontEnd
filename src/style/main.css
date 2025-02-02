@@ -137,7 +137,7 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
+    grid-gap:32px;
     gap: 16px;
     margin-bottom: 16px;
 }  
@@ -145,8 +145,8 @@
 
 .cards {
     position: relative; 
-    width: 220px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -155,7 +155,7 @@
     padding: 16px;
     position: absolute;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -259,12 +259,13 @@
 }
   
 .artist-img {
-    height: 100%;
+    height: auto;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
     border-radius: 50%;
+    object-fit: cover;
 }
   
 .card-text {
